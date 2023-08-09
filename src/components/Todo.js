@@ -2,7 +2,8 @@ import React from "react";
 import style from "./todo.module.css";
 
 const Todo = (props) => {
-  const { title, desc, id } = props.todo;
+  const { title, desc } = props.todo;
+  const { id } = props;
   return (
     <article className={style.todo}>
       <div>
