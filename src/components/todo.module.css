@@ -1,12 +1,10 @@
 .todo {
-  /* background-color: #007581; */
   background-color: #00879d;
   margin: 0.5rem;
   border-radius: 0.6rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 10rem;
   padding: 0.5rem;
 }
 .todo:hover {
